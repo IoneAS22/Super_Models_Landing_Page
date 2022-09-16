@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma, arial, sans-serif;
+}
+
+.container {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*Formatação do Header*/
+
+header {
+    background-color: #081a24;
+    padding: 10px 0;
+    height: auto;
+}
+
+.flexHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 0.7vh;  
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    flex-wrap: wrap;    
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1c3b4c;
+    font-weight: lighter;
+    letter-spacing: 0.3em;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+/* Modelo Hero Section */
+
+.heroSection {
+    width: 100%;
+    height: 100vh;
+    background: url('../IMG/topo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Formatação Portfolio*/
+
+.portfolio {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding: 15vh 0;
+}
+
+.portfolio h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;    
+}
+
+.portfolio p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+    color: #a5acac;    
+}
+
+/*Formatação Galeria*/
+
+.galeria {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content:space-between ;
+    padding-bottom: 15vh;
+}
+
+.card {
+    border: 1px solid #1c3b4c;
+    width: 32%;
+    height: auto;
+    box-shadow: 3px 3px 3px #c6c6c6;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 0.3em;
+}
+
+.card p {
+    text-align: center;
+    color: #a5acac;
+    margin: 20px 0;
+    letter-spacing: 0.3em;
+}
+
+/*Formatação Sobre*/
+
+.sobre {
+    background-color: #003b53;
+    background-image: url("../IMG/bg_detalhe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 30%;
+    color: #f6f9fa;
+    padding: 10vh 0;
+}
+
+.sobre h3 {
+    font-size: 50px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+.sobre p {
+    width: 50%;
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: 1.5em;
+}
+
+/*Formatação Contato*/
+
+.contato {
+    padding: 5vw 0;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #003b53;
+}
+
+/*Formatação Iframe*/
+
+/*Formatação Footer*/
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #081a24;
+    text-align: center;
+}
+
+footer p {
+    color: #1c3b4c;
+    line-height: 10vh;
+    letter-spacing: 0.3em;
+}
+
+
+footer p:hover {
+    color: #fff;
+}
+
+@media only screen and (max-width: 850px){
+
+    .heroSection {
+        background-position: 15%;
+    }
+    
+
+    .flexHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figure {
+        margin-bottom: 0.1rem;
+    }
+
+    .galeria {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        width: 90%;
+        margin: 2rem 0;
+
+    }
+    
+    .card img{
+        width: 100%;
+    }
+    
+
+    .sobre {
+        text-align: center;
+    }
+
+    .sobre p {
+        text-align: center;
+        width: 100%;
+    }
+
+}
