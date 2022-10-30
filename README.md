@@ -12,5 +12,7 @@ Display Flex<br>
 
 Desktop version:
 
+![supermodels_desktop](https://user-images.githubusercontent.com/99365685/198898226-063faad2-f06a-46fa-8e44-b71c72f9ca05.jpg)
 
 Mobile version:
+![supermodels_mobile](https://user-images.githubusercontent.com/99365685/198898228-557bf130-9624-423e-b4bf-7c2ae5f3e58b.jpg)
