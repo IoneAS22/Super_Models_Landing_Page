@@ -10,7 +10,7 @@ Display Flex<br>
 
 [X] - HTML
 
-You can check it project working at: https://ionealves.github.io/Super_Models_Landing_Page/
+You can check it project working at my page: https://ionealves.github.io/Super_Models_Landing_Page/
 
 Desktop version:
 
